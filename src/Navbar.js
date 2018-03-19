@@ -12,7 +12,7 @@ class NavbarContainer extends Component {
     return(
       <Router>
         <div>
-          <Navbar brand='Eric Lum' right>
+          <Navbar class='blue darken-2' brand='Eric Lum' right>
             <NavItem>
               <Link to='/'>
               Home
