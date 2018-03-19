@@ -9,7 +9,7 @@ class Home extends Component {
         <div className='center title'>
           <h1>Web Developer. Life-long student.</h1>
         </div>
-
+        
             {/* <div className='recent-news'>
               <h3>Recent commits</h3>
               <ul>

@@ -28,5 +28,47 @@
 }
 
 .currentActivities {
+  display: grid;
+  grid-template-columns: 10% 40% 40% 10%;
+  grid-template-rows: 25% 75%;
+}
 
+.reading {
+  margin: 0 auto;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.listening {
+  margin: 0 auto;
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.about-title-text {
+  display: grid;
+  grid-template-columns: 15% auto 15%;
+  grid-template-rows: 30% 70%;
+}
+
+.about-title-name {
+  margin: 0 auto;
+  align-items: center;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.about-title-description-roles {
+  margin: 0 auto;
+  grid-column:2/3;
+  grid-row: 2/3;
+}
+
+.about-description {
+  display: grid;
+  grid-template-columns: 15% auto 15%;
+  grid-template-rows: auto;
+}
+.about-description-text {
+  grid-column: 2/3;
+  grid-row: 1/3;
 }
