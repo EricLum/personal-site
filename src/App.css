@@ -72,3 +72,18 @@
   grid-column: 2/3;
   grid-row: 1/3;
 }
+
+.home-social {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 10% 25% 25% 25% 10%;
+  grid-template-rows: 50% 50%
+}
+
+.home-social-pins {
+  grid-column: 2/3
+}
+
+.centerAll {
+  margin: 0 auto;
+}

@@ -32,9 +32,9 @@ class About extends Component {
           <div className='reading'>
             <h4>Reading List</h4>
             <ul>
-                <Link to='https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/1501227742'><li>A Short History of Nearly Everything - Bill Bryson</li></Link>
-                <Link to='https://www.amazon.com/Short-History-Nearly-Everything/dp/076790818X/ref=sr_1_1?s=books&ie=UTF8&qid=1521425890&sr=1-1&keywords=bill+bryson+a+short+history+of+nearly+everything'>
-              <li>Superintelligence: Paths, Dangers, Strategies - Nick Bostrom</li></Link>
+                <a href='https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/1501227742'><li>A Short History of Nearly Everything - Bill Bryson</li></a>
+                <a href='https://www.amazon.com/Short-History-Nearly-Everything/dp/076790818X/ref=sr_1_1?s=books&ie=UTF8&qid=1521425890&sr=1-1&keywords=bill+bryson+a+short+history+of+nearly+everything'>
+              <li>Superintelligence: Paths, Dangers, Strategies - Nick Bostrom</li></a>
             </ul>
           </div>
 
@@ -42,8 +42,8 @@ class About extends Component {
             <h4>Currently Jammin'</h4>
             {/*Spotify Integration?  */}
             <ul>
-              <Link to='https://www.amazon.com/Awaken-My-Love-Explicit/dp/B01N3UI0NF/ref=sr_1_1?s=books&ie=UTF8&qid=1521426050&sr=8-1&keywords=awaken+my+love+gambino'>
-              <li>"Awaken, My Love" -Childish Gambino</li></Link>
+              <a  href='https://www.amazon.com/Awaken-My-Love-Explicit/dp/B01N3UI0NF/ref=sr_1_1?s=books&ie=UTF8&qid=1521426050&sr=8-1&keywords=awaken+my+love+gambino'>
+              <li>"Awaken, My Love" -Childish Gambino</li></a>
             </ul>
           </div>
         </div>
